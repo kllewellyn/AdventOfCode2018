@@ -4,6 +4,7 @@ count = 0
 
 def add(addNumber):
     global count
+    global stack
     count = count + int(addNumber)
 
 def subtract(number):
